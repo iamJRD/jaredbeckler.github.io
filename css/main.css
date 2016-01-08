@@ -18,3 +18,7 @@ p span {
   color: black;
   background-color: #3490bd;
 }
+
+.modal-body {
+  font-family: helvetica;
+}
