@@ -12,12 +12,19 @@
   <body>
     <!-- JUMBOTRON -->
     <div class="jumbotron text-center">
-      <div class="container jumbotext">
+      <div class="container">
+        <span class="jumbotrontext">
           <h1><strong>Jared Beckler</strong></h1>
           <p><em>Thanks for taking a look at my portfolio!</em></p>
+          <span id="aboutme">
+            <p>I had been drawn to programming/web development for quite some time. I love getting into the nitty-gritty of things and trying to figure out how they work or got made. This, along with success stories from friends who have gone through the school, has brought me to Epicodus.</p>
+            <p>I have worked in the food service industry for the vast majority of my working life. Doing this has helped me develop an effective way to solve probelms. It has also forced me to be very proactive in thinking about how best to use my time. Both of which I believe will be very beneficial in the programming world.</p>
+            <p>When I'm not in class I can often be found watching the Trail Blazers, ideally in person, with some friends or doing something along the lines of hiking or biking outside. I am a fan of craft cocktails, microbrews and good food so I'm often trying new places to find my new favorite spot!</p>
+          </span>
+        </span>
 
     <!-- MODAL -->
-          <p><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Contact Me</button></p>
+          <p><button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Contact Me</button></p>
           <div id="myModal" class="modal fade" role="dialog" tabindex="-1">
             <div class="modal-dialog">
               <div class="modal-content">
@@ -33,34 +40,89 @@
                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
               </div>
-    <!-- END MODAL -->
-
             </div>
           </div>
+    <!-- END MODAL -->
+          <img id="photome" src="img/me.jpg" alt="Jared">
+
+
+        </div>
+      </div>
     <!-- END JUMBOTRON -->
 
     <div class="container">
 
     <!-- NAVBAR -->
-      <div class="navbar navbar-default navbar-fixed-top navbar-inverse">
+      <div class="navbar navbar-fixed-top navbar-inverse">
         <div class="container">
-          <p><span class="navbar-brand" href="#">JB</span></p>
+          <p id="logo" class="navbar-brand">JB</p>
           <ul class="nav nav-pills pull-right">
             <li class="active"><a href = "#">Home</a></li>
             <li><a href="#">Portfolio</a></li>
           </ul>
         </div>
       </div>
+    </div>
     <!-- END NAVBAR -->
 
+    <!-- COLUMNS -->
+    <div class="container">
+      <div class="row">
+
+        <h1><span class="rowheaders">Projects</span></h1>
 
 
+        <div class="col-sm-4 colborder">
+          <h2><span class="rowheaders">Markdown</span></h2>
+          <p class="lead">This is a quick project done on the first day of class. Written in Markdown, it's a quick "About Us" for a fake company my partner and I came up with.</p>
+          <p>Click <a href="https://github.com/jaredbeckler/markdown">here</a> to check out my Markdown project!</p>
+          <img class="projimg" src="img/markdownss.jpg" alt="Markdown Screenshot">
+        </div>
+        <div class="col-sm-4 colborder">
+          <h2><span class="rowheaders">Private Island</span></h2>
+          <p class="lead">This project was assigned in order to get some basic knowledge and skills in HTML and CSS. We also got used to adding photos to webpages.</p>
+          <p>Click <a href="https://github.com/jaredbeckler/privateisland">here</a> to check out my Island project!</p>
+          <img class="projimg" src="img/privateisland.jpg" alt="Private Island Screenshot">
+        </div>
+        <div class="col-sm-4 colborder">
+          <h2><span class="rowheaders">CSS &amp; Links</span></h2>
+          <p class="lead">Here we got more practice in linking between webpages and images. We also used multipule CSS files to style each page differently.</p>
+          <p>Click <a href="https://github.com/jaredbeckler/firstwebpage">here</a> to check out my project!</p>
+          <img class="projimg" src="img/practicepage.jpg" alt="Practice Page Screenshot">
+        </div>
+      </div>
 
-
-
-
-
-
+      <div class="row">
+        <div class="col-sm-6 colborder">
+          <h2><span class="rowheaders">Interior Design</span></h2>
+          <p class="lead">This project was intended to teach us about columns. We also played around with the CSS file to see what we could do to syle the columns.</p>
+          <p>Click <a href="https://github.com/jaredbeckler/interiordesigncolumns">here</a> to check out my Column project!</p>
+          <img class="projimg" src="img/interiorcolumns.jpg" alt="Interior Design Columns Screenshot">
+        </div>
+        <div class="col-sm-6 colborder">
+          <h2><span class="rowheaders">Bootstrap</span></h2>
+          <p class="lead">In this project we dove into Bootstrap and used that to style our page and got even more familiar with classes and IDs.</p>
+          <p>Click <a href="https://github.com/jaredbeckler/vacabootstrap/tree/vacadraft">here</a> to check out my Vacation Bootstrap project!</p>
+          <img class="projimg" src="img/vacaboot.jpg" alt="Vacation Bootstrap Screenshot">
+        </div>
+      </div>
     </div>
+    <!-- END COLUMNS -->
+      <div class="container footer">
+        <p>
+
+          &copy; Jared Beckler 2016
+
+          <a href="https://twitter.com/_Beckels">
+            <img class="sociallogos" src="img/twitterlogo.png" alt="Twitter Logo">
+          </a>
+          <a href="https://www.facebook.com/jared.beckler.1">
+            <img class="sociallogos" src="img/facebooklogo.png" alt="Facebook Logo">
+          </a>
+          <a href="https://www.instagram.com/jbeckels/">
+            <img class="sociallogos" src="img/instalogo.jpg" alt="Instagram Logo">
+          </a>
+        </p>
+      </div>
   </body>
 </html>
