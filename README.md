@@ -1,14 +1,27 @@
-# JARED BECKLER
+# Portfolio Homepage
 
-#### EPICODUS HTML/CSS CODE REVIEW, JANUARY 2016
+#### By: Jared Beckler | Epicodus | January 2016
 
-#### DESCRIPTION
+This project is further exploration of HTML/CSS and the Bootstrap framework.
 
-_THIS IS A PROTFOLIO HOMEPAGE FOR JARED BECKLER. IT IS CREATED IN HTML/CSS USING BOOTSTRAP_
+## Installation
 
-#### SETUP
+* Visit `jaredbeckler.github.io` to view the page
 
-_INSERT THE URL (http://jaredbeckler.github.io/) INTO YOU WEB BROWSER. ENJOY_
+## Known Bugs
 
+There are currently no known bugs.
 
-COPYRIGHT (c) ** JARED BECKLER **
+## Support and contact details
+
+If you have any issues, questions, ideas, or concerns contact me through GitHUb. If you would like to make a contribution to the code, feel free to do so and notify me by e-mail.
+
+## Technologies Used
+
+* HTML
+* CSS
+* Bootstrap
+
+### License
+
+Copyright &copy; 2016  |  Jared Beckler  |  Epicodus  |  Portland, OR
